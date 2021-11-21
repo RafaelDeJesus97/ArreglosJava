@@ -30,6 +30,7 @@ public class StartUp {
 
     public static double Promedio(int[] arreglo) {
         double suma = 0;
+
         for (int i = 0; i < arreglo.length; i++) {
             suma = suma + arreglo[i];
         }
